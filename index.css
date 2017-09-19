@@ -1,7 +1,47 @@
 #div-1 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .paragraph-class-1 {
-    font-size: 30px;
+    font-size: 25px;
+}
+
+a[href^="https"] {
+    color: yellow;
+}
+
+a[href$="se"] {
+    color: red;
+}
+
+a[href*="youtube"] {
+    color: green;
+}
+
+h1 {
+    background-color: grey;
+}
+
+body p {
+    background-color: red;
+}
+
+div p {
+    background-color: rgb(0,255,0);
+}
+
+div ~ p {
+    background-color: yellow;
+}
+
+div + p {
+    background-color: pink;
+}
+
+ul {
+    list-style-type: lower-alpha;
+}
+
+ul a:link {
+    text-decoration: none;
 }
